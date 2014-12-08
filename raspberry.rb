@@ -1,9 +1,10 @@
 require 'mongo_mapper'
+require 'temp'
 
-class Classic
+class Raspberry
   include MongoMapper::Document
 
   key :dateTime,Time 
-  key :inside, Float
-  key :outside, Float
+  key :inside, String
+  key :outside, String
 end
