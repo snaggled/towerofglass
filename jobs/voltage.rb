@@ -5,10 +5,10 @@ points = []
 end
 last_x = points.last[:x]
 
-SCHEDULER.every '2s' do
+SCHEDULER.every '5m' do
   points.shift
   last_x += 1
   points << { x: last_x, y: rand(50) }
 
-  send_event('convergence', points: points)
+  send_event('voltage', points: points)
 end
