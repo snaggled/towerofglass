@@ -2,6 +2,7 @@ require 'dashing'
 
 configure do
   set :auth_token, 'hoopla'
+  set :default_dashboard, 'cabin'
 
   helpers do
     def protected!
