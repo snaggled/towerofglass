@@ -6,7 +6,7 @@ require 'net/http'
 
 
 MongoMapper.connection = Mongo::Connection.new('localhost', 27017)
-MongoMapper.database = "raspberry"
+MongoMapper.database = "cabin"
 
 r = Raspberry.new
 r.dateTime = DateTime.now
