@@ -24,6 +24,7 @@ response = http.request(request)
 
 doc = Nokogiri::HTML(response.body)
 trs = doc.css('table > tr')
+puts trs
 bandwidth = trs[3].css('td')[1].css('b')[0].text
 
 b = Bandwidth.new
