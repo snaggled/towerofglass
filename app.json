@@ -1,0 +1,7 @@
+{
+  "name": "towerofglass",
+  "description": "off-grid cabin monitoring",
+  "repository": "https://github.com/snaggled/towerofglass",
+  "logo": "https://www.ruby-lang.org/images/header-ruby-logo.png",
+  "keywords": ["ruby", "sinatra", "midnite classic", "offgrid", "cabin", "off-grid"]
+}
